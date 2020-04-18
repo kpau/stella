@@ -1,0 +1,29 @@
+{
+  "steps": {
+    "count": 10,
+    "timeout": {
+      "min": 60,
+      "max": 90
+    }
+  },
+  "urls": {
+    "validate": "http://example.com/validate/",
+    "register": "http://example.com/register/"
+  },
+  "errors": {
+    "notValid": "not valid code",
+    "used": "code is used"
+  },
+  "data": {
+    "submitions": "data/submitions.csv"
+  },
+  "users": [
+    {
+      "name": "First name",
+      "last_name": "Last name",
+      "address": "full address",
+      "email": "email@address",
+      "phone": "phonenumber"
+    }
+  ]
+}
